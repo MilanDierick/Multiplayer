@@ -1118,18 +1118,6 @@ namespace Multiplayer.Client
         }
     }
 
-    [MpPatch(typeof(IncidentWorker_CaravanMeeting), nameof(IncidentWorker_CaravanMeeting.CanFireNowSub))]
-    [MpPatch(typeof(IncidentWorker_CaravanDemand), nameof(IncidentWorker_CaravanDemand.CanFireNowSub))]
-    [MpPatch(typeof(IncidentWorker_RansomDemand), nameof(IncidentWorker_RansomDemand.CanFireNowSub))]
-    static class CancelIncidents
-    {
-        static void Postfix(ref bool __result)
-        {
-            if (Multiplayer.Client != null)
-                __result = false;
-        }
-    }
-
     [HarmonyPatch(typeof(IncidentDef), nameof(IncidentDef.TargetAllowed))]
     static class GameConditionIncidentTargetPatch
     {
