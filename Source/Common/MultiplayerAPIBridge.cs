@@ -3,6 +3,7 @@ using System.Reflection;
 
 using Multiplayer.API;
 using Multiplayer.Client;
+using Shared.API;
 
 namespace Multiplayer.Common
 {

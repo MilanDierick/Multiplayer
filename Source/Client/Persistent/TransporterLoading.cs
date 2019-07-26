@@ -6,6 +6,7 @@ using Harmony;
 using Multiplayer.API;
 using RimWorld;
 using RimWorld.Planet;
+using Shared.API;
 using UnityEngine;
 using Verse;
 

@@ -10,6 +10,7 @@ using Multiplayer.Common;
 
 using RimWorld;
 using RimWorld.Planet;
+using Shared.API;
 using Verse;
 
 namespace Multiplayer.Client

@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using Shared.API;
 using UnityEngine;
 using Verse;
 using Verse.AI;

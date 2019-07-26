@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Multiplayer.API
+namespace Shared.API
 {
     /// <summary>
     /// Context flags which are sent along with a command

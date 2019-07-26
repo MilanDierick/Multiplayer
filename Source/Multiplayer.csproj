@@ -145,9 +145,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MultiplayerAPI.csproj">
-      <Project>{1DF67DDA-04CB-4DDF-B867-4C0E152BC959}</Project>
+      <Project>{1df67dda-04cb-4ddf-b867-4c0e152bc959}</Project>
       <Name>MultiplayerAPI</Name>
-      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="Shared\Shared.csproj">
+      <Project>{df95b93a-015f-4e5e-b5eb-c96abc8b0d03}</Project>
+      <Name>Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

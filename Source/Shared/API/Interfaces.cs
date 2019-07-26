@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Reflection;
+using Multiplayer.API;
 
-namespace Multiplayer.API
+namespace Shared.API
 {
     /// <summary>
     /// SyncField interface.

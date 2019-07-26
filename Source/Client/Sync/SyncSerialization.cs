@@ -10,6 +10,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
 using System.Text;
+using Shared.API;
 using UnityEngine;
 using Verse;
 using Verse.AI;
