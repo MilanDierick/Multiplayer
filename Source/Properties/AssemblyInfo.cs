@@ -33,4 +33,3 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion(Multiplayer.Common.MpVersion.Version)]
-[assembly: AssemblyFileVersion(Multiplayer.API.MP.API)]

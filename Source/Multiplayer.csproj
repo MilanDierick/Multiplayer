@@ -144,10 +144,6 @@
     <Compile Include="Client\Sync\SyncDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="MultiplayerAPI.csproj">
-      <Project>{1df67dda-04cb-4ddf-b867-4c0e152bc959}</Project>
-      <Name>MultiplayerAPI</Name>
-    </ProjectReference>
     <ProjectReference Include="Shared\Shared.csproj">
       <Project>{df95b93a-015f-4e5e-b5eb-c96abc8b0d03}</Project>
       <Name>Shared</Name>
